@@ -33,7 +33,7 @@ def home(request):
     client_id = request.session.get('client_id')
     if client_id:
         client = Client.objects.get(id=client_id)
-    n = 20 #20 hotels
+    n = 18 #20 hotels
     hotels_ids = weighted_average(n) 
     hotels_array = get_hotels(hotels_ids,n)
     #Pour la recherche

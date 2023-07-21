@@ -66,7 +66,7 @@
 }
 /* ------------------ */
 .nav-bar1 {
-  font-family: 'Poppins' ,sans-serif;
+  font-family: "Poppins", sans-serif;
   background: #fff;
   box-shadow: 0 0 6px rgba(0, 0, 0, 16%);
   width: 100%;
@@ -76,7 +76,7 @@
   list-style: none;
   padding: 5px 20px;
   position: fixed;
-  top:0;
+  top: 0;
   left: 0;
   z-index: 80;
   font-size: 1rem;
@@ -98,7 +98,7 @@
   text-align: center;
   transition: 0.2s ease;
   text-transform: uppercase;
-  font-family: 'Poppins' ,sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1rem;
 }
 .menu1 li a:hover {
@@ -117,7 +117,8 @@
   font-size: 1.5rem;
   color: var(--mianColor);
 }
-#check1 ,.sm-il {
+#check1,
+.sm-il {
   display: none;
 }
 
@@ -126,10 +127,13 @@
 @media (max-width: 600px) {
   .sm-il {
     display: inline-block;
-    
   }
- 
-  .PImg , .PImg img , .sub-links {display: none;}
+
+  .PImg,
+  .PImg img,
+  .sub-links {
+    display: none;
+  }
   .menu1 {
     flex-direction: column;
     justify-content: center;
@@ -145,12 +149,9 @@
   }
   .menu1 li {
     margin-top: 25px;
-
   }
   .menu1 li a {
     padding: 10px 0;
-    
-    
   }
   .open-menu1 {
     display: block;
@@ -162,21 +163,25 @@
   #a-l1 i {
     padding-right: 10px;
   }
-  #a-l2{
-    color: #FA5252;
+  #a-l2 {
+    color: #fa5252;
   }
-  .sm-il a .fa-sign-out-alt{
-    padding-right:10px;
+  .sm-il a .fa-sign-out-alt {
+    padding-right: 10px;
   }
 }
 footer {
-  margin-top: 100px;
+  margin-top: 500px;
   width: 100%;
   background: #fff;
   box-shadow: 0 0 6px #ccc;
   padding: 20px;
   text-align: center;
-  font-size:0.9rem
+  font-size: 0.9rem;
+
+}
+footer a {
+    color: rgb(75, 75, 75);
 }
 
 .PImg {
@@ -188,17 +193,17 @@ footer {
 }
 .PImg img {
   width: 35px;
-  border: 2px solid rgb(238, 238, 238); 
+  border: 2px solid rgb(238, 238, 238);
   border-radius: 50%;
   height: 35px;
 }
-.PImg .sub-links{
+.PImg .sub-links {
   display: none;
   flex-direction: column;
   position: absolute;
   z-index: 200;
   top: 50px;
-  right:-4px;
+  right: -4px;
   background: rgb(255, 255, 255);
   width: 200px;
   border-radius: 10px;
@@ -206,7 +211,7 @@ footer {
   padding: 20px 12px;
 }
 .PImg .sub-links a {
-  font-family: 'Poppins' ,sans-serif;
+  font-family: "Poppins", sans-serif;
   display: block;
   text-align: justify;
   padding: 0;
@@ -214,13 +219,12 @@ footer {
   color: #3d3d3d;
 }
 .PImg .sub-links i {
-    padding: 0 10px ;
+  padding: 0 10px;
 }
-.PImg .sub-links a:nth-child(2){
-  color: #FA5252;
+.PImg .sub-links a:nth-child(2) {
+  color: #fa5252;
   margin-top: 15px;
 }
 /* .PImg .sub-links a .fa-user-alt{
   color: #19d5ee;
 } */
-
